@@ -39,7 +39,7 @@ const gameEvents = [
     },
     {
         isGameOver: true,
-        text: 'Вы заработали сотрясение мозга, а затем умрели.'
+        text: 'Вы заработали сотрясение мозга, а затем умерли.'
     }
 ];
 let currentEvent = 0;

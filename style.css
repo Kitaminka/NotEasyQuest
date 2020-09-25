@@ -24,6 +24,7 @@ html, body {
     text-align: center;
 }
 #startButton {
+    transition: all 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +32,11 @@ html, body {
     padding: 20px 0;
     background-color: #fdbb68;
     border-radius: 10px;
+}
+#startButton:hover {
+    cursor: pointer;
+    background-color: #ffce8a;
+    padding: 20px 30px;
 }
 #startButton h2 {
     color: green;
@@ -66,8 +72,10 @@ html, body {
 #buttons {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .actionButton {
+    transition: all 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +84,11 @@ html, body {
     padding: 20px 10px;
     background-color: #fdbb68;
     border-radius: 10px;
+}
+.actionButton:hover {
+    cursor: pointer;
+    background-color: #ffce8a;
+    padding: 20px 30px;
 }
 .actionButton h2 {
     text-align: center;
@@ -101,6 +114,7 @@ html, body {
     font-size: 50px;
 }
 #restartButton {
+    transition: all 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,6 +123,11 @@ html, body {
     padding: 20px 10px;
     background-color: #fdbb68;
     border-radius: 10px;
+}
+#restartButton:hover {
+    cursor: pointer;
+    background-color: #ffce8a;
+    padding: 20px 30px;
 }
 #restartButton h2 {
     text-align: center;
