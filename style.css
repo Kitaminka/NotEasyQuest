@@ -46,6 +46,27 @@ html, body {
 }
 #text {
     margin: 0 100px;
+}
+#text h1 {
+    text-align: center;
+    color: green;
+    font-size: 50px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+.actionButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+    width: 300px;
+    height: 80px;
+    background-color: #fdbb68;
+    border-radius: 10px;
+}
+.actionButton h2 {
     text-align: center;
     color: green;
     font-size: 30px;
