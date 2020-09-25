@@ -14,9 +14,17 @@ const gameEvents = [
         thirdButtonText: 'Вылезти в окно.',
         thirdButtonResult: 3,
     },
+    {
+        gameText: 'тест',
+        firstButtonText: 'ctt',
+        firstButtonResult: 0,
+        secondButtonText: 'Ждать помощи.',
+        secondButtonResult: 2,
+        thirdButtonText: 'sdf в окно.',
+        thirdButtonResult: 3,
+    }
 ];
 let currentEvent = 0;
-
 
 function gameStart() {
     menu.style.display = 'none';
@@ -28,4 +36,16 @@ function updateGameState() {
     firstButton.innerHTML = `<h2>${gameEvents[currentEvent].firstButtonText}</h2>`;
     secondButton.innerHTML = `<h2>${gameEvents[currentEvent].secondButtonText}</h2>`;
     thirdButton.innerHTML = `<h2>${gameEvents[currentEvent].thirdButtonText}</h2>`;
+}
+function firstAction() {
+    currentEvent = gameEvents[currentEvent].firstButtonResult;
+    updateGameState();
+}
+function secondAction() {
+    currentEvent = gameEvents[currentEvent].secondButtonResult;
+    updateGameState();
+}
+function thirdAction() {
+    currentEvent = gameEvents[currentEvent].thirdButtonResult;
+    updateGameState();
 }
