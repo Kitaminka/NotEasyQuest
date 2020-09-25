@@ -5,6 +5,7 @@
     <title>NotEasyQuest</title>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <div id="menu">
@@ -12,14 +13,21 @@
         <div id="startButton" onclick="gameStart()">
             <h2>Начать</h2>
         </div>
+        <h1 id="gameAuthor">By Kitam</h1>
     </div>
     <div id="game">
-        <div id="text">
+        <div id="gameText">
         </div>
         <div id="buttons">
             <div id="firstButton" class="actionButton" onclick="firstAction()"></div>
             <div id="secondButton" class="actionButton" onclick="secondAction()"></div>
             <div id="thirdButton" class="actionButton" onclick="thirdAction()"></div>
+        </div>
+    </div>
+    <div id="gameOverScreen">
+        <div id="gameOverText"></div>
+        <div id="restartButton" onclick="gameStart()">
+            <h2>Перезапуск</h2>
         </div>
     </div>
     <script src="script.js"></script>
