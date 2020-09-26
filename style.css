@@ -89,6 +89,7 @@ html, body {
     cursor: pointer;
     background-color: #ffce8a;
     padding: 20px 30px;
+    margin: 30px 0;
 }
 .actionButton h2 {
     text-align: center;
