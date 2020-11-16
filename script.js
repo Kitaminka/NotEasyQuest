@@ -17,9 +17,9 @@ const gameEvents = [
         thirdButtonResult: 3,
     },
     {
-        gameText: 'Вы полпали в комнату без окно и дверей. По середние комнаты лежит телефон.',
-        firstButtonText: 'Побится головой о стену',
-        firstButtonResult: 5,
+        gameText: 'Вы попали в комнату без окон и дверей. По середние комнаты лежит телефон.',
+        firstButtonText: 'Ничего не делать',
+        firstButtonResult: 1,
         secondButtonText: 'Вернутся в предыдущую комнату',
         secondButtonResult: 0,
         thirdButtonText: 'Взять телефон',
@@ -36,10 +36,6 @@ const gameEvents = [
     {
         isGameOver: true,
         text: 'Вы подняли телефон, но вас ударило сильным разрядом тока и вы скончались на месте. Выдимо, телефон был сломан.'
-    },
-    {
-        isGameOver: true,
-        text: 'Вы заработали сотрясение мозга, а затем умерли.'
     }
 ];
 let currentEvent = 0;
