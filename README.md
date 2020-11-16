@@ -2,32 +2,32 @@
 [![Issues](https://img.shields.io/github/issues/Kitaminka/NotEasyQuest)](https://github.com/Kitaminka/NotEasyQuest/issues)
 [![Stars](https://img.shields.io/github/stars/Kitaminka/NotEasyQuest)](https://github.com/Kitaminka/NotEasyQuest/stargazers)
 
-Короткая квест игра.
+A website with a short quest game.
 ___
-### Установка и запуск
-- Скопируйте репозиторий на ваш компьютер.
-- Откройте файл **index.html**, используя браузер.
+### Installation and launching
+- Clone repository to your computer.
+- Open the **index.html** file, using a browser.
 ___
-### Настройка квеста
-Также есть возможность частично переписать квест или создать собственный.
-- Чтобы настроить квест, откройте файл **script.js**, используя любой текстовый редактор.
-- Найдите следующие строчки:
+### Setting up the quest
+It is also possible to partially rewrite the quest or create your own.
+- To set up the quest, open the **script.js** file, using any text editor.
+- Find the next strings:
 ```js
 const gameEvents = [
-    // Какой-то текст
+    // Some text
 ];
 ```
-- В этих строчках записано, какое событие должно произойти в конкретный момент игры в следующем формате:
+- In these strings written, which event should happen at a particular moment in the game in the next format.
 
-|    Название поля   |  Пример значения |                                                               Описание                                         |
-|:------------------:|:----------------:|:--------------------------------------------------------------------------------------------------------------:|
-|      gameText      | "Какой-то текст" |                        Текст, который отображается во время игры над кнопками действия.                        |
-|   firstButtonText  | "Какой-то текст" |                      Текст, который отображается во время игры на первой кнопке действия.                      |
-|  firstButtonResult |         0        | Номер события, которое произойдет после нажатия на первую кнопку действия. Отсчет номера события идет с 0.     |
-|  secondButtonText  | "Какой-то текст" |                  Текст, который отображается во время игры на второй кнопке действия.                          |
-| secondButtonResult |         1        |  Номер события, которое произойдет после нажатия на вторую кнопку действия. Отсчет номера события идет с 0.    |
-|   thirdButtonText  | "Какой-то текст" |                  Текст, который отображается во время игры на третьей кнопке действия.                         |
-|  thirdButtonResult |         2        |   Номер события, которое произойдет после нажатия на третью кнопку действия. Отсчет номера события идет с 0.   |
-|     isGameOver     |       true       |                        Информация о том, является ли данное событие концовкой игры.                            |
-|      gameOver      | "Какой-то текст" | Если данное событие является концовкой игры, то здесь содержиться текст, который отобразиться в этой концовке. |
+|     Field name     | Example value |                                                    Description                                                       |
+|:------------------:|:-------------:|:--------------------------------------------------------------------------------------------------------------------:|
+|      gameText      |  "Some text"  |                         The text that appears above the action buttons during gameplay.                              |
+|   firstButtonText  |  "Some text"  |                        The text that appears during the game on the first action button.                             |
+|  firstButtonResult |       0       | The number of event that will occur after pressing the first action button. The event number is counted from 0.  |
+|  secondButtonText  |  "Some text"  |                       The text that appears during the game on the second action button.                             |
+| secondButtonResult |       1       | The number of event that will occur after pressing the second action button. The event number is counted from 0. |
+|   thirdButtonText  |  "Some text"  |                       The text that appears during the game on the third action button.                              |
+|  thirdButtonResult |       2       | The number of event that will occur after pressing the third action button. The event number is counted from 0.  |
+|     isGameOver     |      true     |                          Information about whether this event is the end of the game.                                |
+|      gameOver      |  "Some text"  |  If this event is the ending of the game, then this field contains the text that will be displayed at this ending.   |
 ___
