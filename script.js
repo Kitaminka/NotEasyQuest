@@ -17,9 +17,9 @@ const gameEvents = [
         thirdButtonResult: 3,
     },
     {
-        gameText: 'Вы полпали в комнату без окно и дверей. По середние комнаты лежит телефон.',
-        firstButtonText: 'Побится головой о стену',
-        firstButtonResult: 5,
+        gameText: 'Вы попали в комнату без окон и дверей. По середние комнаты лежит телефон.',
+        firstButtonText: 'Ничего не делать',
+        firstButtonResult: 1,
         secondButtonText: 'Вернутся в предыдущую комнату',
         secondButtonResult: 0,
         thirdButtonText: 'Взять телефон',
@@ -27,7 +27,7 @@ const gameEvents = [
     },
     {
         isGameOver: true,
-        text: 'Вы умерли от нехватки жидкости в организме, дождавшись помощи.',
+        text: 'Вы умерли, не дождавшись помощи.',
     },
     {
         isGameOver: true,
@@ -35,11 +35,7 @@ const gameEvents = [
     },
     {
         isGameOver: true,
-        text: 'Вы подняли телефон, но вас ударило сильным разрядом тока и вы скончались на месте. Выдимо, телефон был сломан.'
-    },
-    {
-        isGameOver: true,
-        text: 'Вы заработали сотрясение мозга, а затем умерли.'
+        text: 'Вы подняли телефон, но вас ударило сильным разрядом тока. Выдимо, телефон был сломан.'
     }
 ];
 let currentEvent = 0;
