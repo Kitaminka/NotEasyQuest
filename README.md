@@ -1,6 +1,7 @@
 # NotEasyQuest
 [![Issues](https://img.shields.io/github/issues/Kitaminka/NotEasyQuest)](https://github.com/Kitaminka/NotEasyQuest/issues)
 [![Stars](https://img.shields.io/github/stars/Kitaminka/NotEasyQuest)](https://github.com/Kitaminka/NotEasyQuest/stargazers)
+
 Короткая квест игра.
 ___
 ### Установка и запуск
