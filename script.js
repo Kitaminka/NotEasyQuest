@@ -12,7 +12,7 @@ const gameEvents = [
         firstButtonText: 'Открыть дверь',
         firstButtonResult: 1,
         secondButtonText: 'Ждать помощи',
-        secondButtonResult: 2,
+        secondButtonResult: 4,
         thirdButtonText: 'Вылезти в окно',
         thirdButtonResult: 3,
     },
