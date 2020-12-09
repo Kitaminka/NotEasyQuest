@@ -8,34 +8,34 @@ const thirdButton = document.getElementById('thirdButton');
 const gameText = document.getElementById('gameText');
 const gameEvents = [
     {
-        gameText: 'Вы стоите в тёмной комнате. Перед вами дверь. Справа от вас окно.',
-        firstButtonText: 'Открыть дверь',
+        gameText: 'You are standing in a dark room. The door is in front of you. To your right is a window.',
+        firstButtonText: 'Open the door',
         firstButtonResult: 1,
-        secondButtonText: 'Ждать помощи',
+        secondButtonText: 'Wait for help',
         secondButtonResult: 4,
-        thirdButtonText: 'Вылезти в окно',
+        thirdButtonText: 'Get out the window',
         thirdButtonResult: 3,
     },
     {
-        gameText: 'Вы попали в комнату без окон и дверей. По середние комнаты лежит телефон.',
-        firstButtonText: 'Ничего не делать',
+        gameText: 'You are in a room with no windows or doors. There is a mobile phone in the middle of the room.',
+        firstButtonText: 'Nothing to do',
         firstButtonResult: 1,
-        secondButtonText: 'Вернутся в предыдущую комнату',
+        secondButtonText: 'Return to the previous room',
         secondButtonResult: 0,
-        thirdButtonText: 'Взять телефон',
-        thirdButtonResult: 4,
+        thirdButtonText: 'Pick up the phone',
+        thirdButtonResult: 2,
     },
     {
         isGameOver: true,
-        text: 'Вы умерли, не дождавшись помощи.',
+        text: 'You died without waiting for help.',
     },
     {
         isGameOver: true,
-        text: 'Вы вылезли в окно, выпрыгнули и начали падать. В воздухе вы потеряли сознание.',
+        text: 'You climbed out the window, jumped out, and began to fall. You passed out in the air.',
     },
     {
         isGameOver: true,
-        text: 'Вы подняли телефон, но вас ударило сильным разрядом тока. Выдимо, телефон был сломан.'
+        text: 'You picked up the phone, but you were struck by a strong electric shock and died on the spot. Apparently, the phone was broken.'
     }
 ];
 let currentEvent = 0;
