@@ -12,7 +12,7 @@ const gameEvents = [
         firstButtonText: 'Open the door',
         firstButtonResult: 1,
         secondButtonText: 'Wait for help',
-        secondButtonResult: 4,
+        secondButtonResult: 2,
         thirdButtonText: 'Get out the window',
         thirdButtonResult: 3,
     },
@@ -23,7 +23,7 @@ const gameEvents = [
         secondButtonText: 'Return to the previous room',
         secondButtonResult: 0,
         thirdButtonText: 'Pick up the phone',
-        thirdButtonResult: 2,
+        thirdButtonResult: 4,
     },
     {
         isGameOver: true,
